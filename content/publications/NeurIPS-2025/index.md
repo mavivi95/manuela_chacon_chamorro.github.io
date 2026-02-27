@@ -95,9 +95,9 @@ publication: "NeurIPS 2025 Datasets and Benchmarks Track"
 # Al hacer clic en el título, abre el DOI externo
 # external_link: "https://doi.org/10.1109/TAI.2025.3567371"
 
-tags: ["Cooperative AI", "Language Models", "Generalization", "Mixed-Motive Games", "Agent Evaluation"]
+tags: ["coauthor", "Cooperative AI", "Language Models", "Generalization", "Mixed-Motive Games", "Agent Evaluation"]
 featured: true
-
+author_role: "coauthor"
 links:
 - type: custom
   label: Site

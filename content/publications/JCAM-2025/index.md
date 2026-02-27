@@ -9,7 +9,7 @@ publication_types: ["article-journal"]
 publication: "Journal of Computational and Applied Mathematics"
 
 
-tags: ["Neural Networks", "Lipschitz continuity", "Regularization", "Overfitting"]
+tags: ["first-author", "Neural Networks", "Lipschitz continuity", "Regularization", "Overfitting"]
 featured: true
 
 links:
@@ -21,6 +21,8 @@ links:
 
 image:
   preview_only: true
+
+author_role: "coauthor"
 ---
 
 **Abstract.** This paper introduces Adaptive Lipschitz Bound Regularization with Random Constraints (LBA Regularization), a method designed to mitigate overfitting in residual neural networks by dynamically adjusting the regularization parameter based on the spectral norm of randomly selected layers. Unlike traditional regularization techniques such as L1, L2, Dropout, Early Stopping, and Batch Normalization, LBA leverages an adaptive approach that effectively constrains the Lipschitz bound while maintaining flexibility in deep learning architectures. To substantiate this method, an analysis of the Lipschitz properties in ResNet architectures was performed, offering theoretical insights into their impact on model stability and generalization. The method was evaluated in various neural architectures and datasets, including MNIST, CIFAR-10, and tabular data sets. The results demonstrate that LBA significantly reduces the gap between training and validation accuracy, leading to improved generalization performance. Furthermore, an adversarial robustness analysis against FGSM and PGD attacks confirmed that LBA maintains model stability under adversarial perturbations.

@@ -15,12 +15,12 @@ authors:
 date: "2025-05-06"
 publication_types: ["article-journal"]
 publication: "IEEE Transactions on Artificial Intelligence"
-
+author_role: "first"
 # Al hacer clic en el título, abre el DOI externo
 # external_link: "https://doi.org/10.1109/TAI.2025.3567371"
 
 
-tags: ["Cooperative AI", "Multi-Agent Systems", "Resilience"]
+tags: ["first-author","first", "Cooperative AI", "Multi-Agent Systems", "Resilience"]
 featured: true
 
 links:

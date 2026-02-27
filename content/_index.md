@@ -42,15 +42,27 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Publications
+      title: First-author Publications
       text: ''
       filters:
         folders:
           - publications
+        tag: "first-author"
         exclude_featured: false
     design:
       view: citation
-
+  - block: collection
+    id: papers2
+    content:
+      title: Co-authored publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        tag: "coauthor"
+        exclude_featured: false
+    design:
+      view: citation
   
   - block: collection
     id: talks
